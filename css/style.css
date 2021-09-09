@@ -41,3 +41,10 @@ body{
 .carousel-edit {
    align-content:stretch ;
 }
+
+.container {
+    background-color:	#eee678;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }

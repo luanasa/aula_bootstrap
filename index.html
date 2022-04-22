@@ -1,129 +1,83 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" type="imagex/png" href="./img/icon.ico">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./img/icon.ico">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+        </style>
     <title>Espaço Renove</title>
-
 </head>
 <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="img/fundobranco.png" alt="logo" width="100" height="110">
+    <nav>
+        <div class="logo">
+            <img src="/img/logo.png" alt="logo">
+        </div>
 
-        </a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link" href="#espaco">Espaço</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#servicos">Serviços</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contato">Contato</a>
-            </li>
-        </ul>
-         </div>
+        <div class="page-itens">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="our-space.html" target="_blank">Nosso espaço</a></li>
+                <li><a href="services.html" target="_blank">Serviços</a></li>
+                <li><a href="contact.html" target="_blank">Contato</a></li>
+            </ul>
+        </div>
     </nav>
-    <div id="carousel-edit" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carousel-edit" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carousel-edit" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carousel-edit" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div> 
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img style="height: 500px; width: 700px;" src="img/poster1.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img style="height: 500px; width: 700px;" src="img/poster2.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img style="height: 500px; width: 700px;" src="img/poster3.png" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-edit" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel-edit" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
 
-    </div>
-    </section>
-    <section id="espaco">
-        <div class="container-fluid text-center margin">
-            <h3 class="margin">Espaço</h3>
-            <div class="container">
-                <div class="row aumentar">
-                    <div class="col-lg-4">
-                        <img src="img/img5.png" alt="espaço da clinica" width="100%">
-                    </div>
-                    <div class="col-lg-4">
-                        <img src="img/img6.png" alt="espaço da clinica" width="100%">
-                    </div>
-                    <div class="col-lg-4">
-                        <img src="img/img7.png" alt="espaço da clinica" width="100%">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="servicos">
-        <div class="container-fluid text-center margin servicos">
-            <h3 class="margin">Serviços</h3>
-            <div class="row aumentar">
-                <div class="col-lg-4">
-                    <p>Vestibulum non venenatis ex, sed dignissim purus. Nam a elit sed neque sollicitudin placerat.
-                     Donec non pulvinar mi. Morbi pharetra fermentum metus, sit amet sodales tellus vulputate vel.</p>
-                    <img src="img/img1.png" alt="" width="80%" height="80%">
-                </div>
-                <div class="col-lg-4">
-                    <p>Vestibulum non venenatis ex, sed dignissim purus. Nam a elit sed neque sollicitudin placerat.
-                    Donec non pulvinar mi. Morbi pharetra fermentum metus, sit amet sodales tellus vulputate vel.</p>
-                    <img src="img/img3.png" alt="" width="80%" height="80%">
-                </div>
-                <div class="col-lg-4">
-                    <p>Vestibulum non venenatis ex, sed dignissim purus. Nam a elit sed neque sollicitudin placerat.
-                    Donec non pulvinar mi. Morbi pharetra fermentum metus, sit amet sodales tellus vulputate vel.</p>
-                    <img src="img/img2.png" alt="" width="80%" height="80%">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contato">
-        <div class="container-fluid text-center margin">
-            <img src="img/poster4.png" alt="imagem de contato" width="68%">
-        </div>
-        <div class="container text-center">
-            <button onclick="window.open('contato.html')" type="button" class="btn btn-secondary">Marque sua consulta</button>
-            <!-- ao clicar no botão, será direcionado para a página de marcação-->
+    <header class="presentation">
+        <div class="presentation-d1">
+            <img src="./img/full-logo.png" alt="">
+            <p>Seu espaço de<br> confiança em<br> fisioterapia</p>
         </div>
 
-        <div id="footer" class="container-fluid">
-            <footer class="py-3 my-4">
-              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-                <li class="nav-item"><a href="#espaco" class="nav-link px-2 text-muted">Espaço</a></li>
-                <li class="nav-item"><a href="#servicos" class="nav-link px-2 text-muted">Serviços</a></li>
-                <li class="nav-item"><a href="#contato" class="nav-link px-2 text-muted">Contato</a></li>
-              </ul>
-              <p class="text-center text-muted">© 2021 Espaço Renove</p>
-            </footer>
-          </div>
-      
-    <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <div class="presentation-d2">
+            <img src="./img/header-img.png" alt="">
+        </div>
+    </header>
+
+    <section class="our-vision">
+        <div>
+            <span>Nossa visão</span>
+            <p>O Espaço Renove é comprometido em ser a mais confiável <br> prestadora de serviços de fisioterapia através de nossa equipe<br> de especialistas altamente treinados, nossas instalações avançadas<br> e nosso compromisso com o bem-estar de nossas pacientes.</p>
+        </div>
+
+        <div>
+            <img src="./img/vision.png" alt="">
+        </div>
+
+    </section>
+
+    <section class="our-team">
+        <span>Nosso time</span>
+        <div class="yellow-line"></div>
+
+        <div class="worker-container">
+            <div>
+                <h1>Drª Teresa Jonas</h1>
+                <p>Estagiária em Fisioterapia</p>
+                <img src="./img/worker-1.png" alt="Worker 1 image">
+            </div>
+    
+            <div>
+                <h1>Dr. Carlos Carvalho</h1>
+                <p>Fisioterapeuta</p>
+                <img src="./img/worker-2.png" alt="Worker 2 image">
+            </div>
+    
+            <div>
+                <h1>Drª Laura Chan</h1>
+                <p>Fisioterapeuta</p>
+                <img src="./img/worker-3.png" alt="Worker 3 image">
+            </div>
+        </div>
+        
+    </section>
+
+    <footer class="footer">
+        <p>© 2022 Espaço Renove</p>
+    </footer>
 </body>
-
 </html>

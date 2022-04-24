@@ -5,22 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/services.css">
+    <link rel="shortcut icon" href="./img/icon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Serviços</title>
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <img src="/img/logo.png" alt="logo">
-        </div>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/img/logo.png" alt="logo">
+            </div>
+    
+            <div class="page-itens">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="our-space.html" target="_blank">Nosso espaço</a></li>
+                    <li><a href="services.html" target="_blank">Serviços</a></li>
+                    <li><a href="contact.html" target="_blank">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-        <div class="page-itens">
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="our-space.html" target="_blank">Nosso espaço</a></li>
-                <li><a href="services.html" target="_blank">Serviços</a></li>
-                <li><a href="contact.html" target="_blank">Contato</a></li>
-            </ul>
+    <div class="page-intro">
+        <h1>Somos apaixonados por cuidar de você.</h1> 
+    <div class="bt-div">
+        <p>Escolha o serviço mais adequado ao que você está procurando. Caso precise de um serviço especifico para sua necessidade, pode entrar em contato conosco pela nossa página de contato. Baixe também nossa tabela de preços clicando no botão abaixo.</p>
+        <button class="btn"><i class="fa fa-download"></i> <a href="./img/prices-table.pdf" download="price list/ lista de valores">Tabela de preços</a></button>
+    </div>
+    </div>
+
+    <section class="services-container">
+        <div class="two-services">
+            <div class="service-fisio">
+                <span>Fisioterapia</span>
+                <p>Nossos serviços de fisioterapia possuem atendimento</br> individual e personalizado, com os melhores profissionais</br> de Fortaleza para atender os mais diversos casos. </p>
+                <img src="./img/fisio-img.png" alt="img fisioterapia">
+                <button type="button" onclick="pageContact()">Conhecer</button>
+            </div>
+            <div class="service-pilates">
+                <span>Pilates</span>
+                <p>Com o pilates, obtemos a correção de postura corporal, corrigindo</br> possíveis hábitos incorretos do dia a dia, com  o objetivo é investir</br> na prevenção e reabilitação de lesões.</p>
+                <img src="./img/pilates-img.png" alt="img pilates">
+                <button type="button" onclick="pageContact()">Conhecer</button>
+            </div>
         </div>
-    </nav>
+        <div class="two-services">
+            <div class="service-rpg">
+                <span>RPG</span>
+                <p>Indicado para pacientes que apresentam desvios posturais,</br> para alívio de dores, relaxamento muscular e maior mobilidade</br> articular, melhora da consciência corporal e do equilíbrio e aumento</br> da força e controle muscular</p>
+                <img src="./img/rpg-img.png" alt="img rpg">
+                <button type="button" onclick="pageContact()">Conhecer</button>
+            </div>
+            <div class="service-acupuntura">
+                <span>Acupuntura</span>
+                <p>Busca a recuperação do organismo como um todo pela indução</br>de processos regenerativos, normalização das funções alteradas,</br> reforço do sistema imunológico e controle da dor</p>
+                <img src="./img/acupuntura-img.png" alt="img acunputura">
+                <button type="button" onclick="pageContact()">Conhecer</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2022 Espaço Renove</p>
+    </footer>
+    <script src="./js/services.js"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 body {
-    background: url("https://cdn.pixabay.com/photo/2021/05/02/01/03/physiotherapy-6222327_960_720.jpg")
+    background: url("https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")
   }
 
   * {
@@ -11,6 +11,7 @@ body {
   :root {
       --main-color: #fff030;
       --second-color: #f6f6f6;
+      --third-color: #235C58;
       --text-color: #101922;
   }
 
@@ -26,7 +27,7 @@ body {
     left: 0;
     right: 0;
     position: absolute;
-    border-top: 5px solid var(--main-color);
+    border-top: 5px solid var(--third-color);
  
     animation: bounce 1.5s infinite;
   }
@@ -53,7 +54,7 @@ body {
     background-color: #ebebeb;
   }
   .name:hover {
-    border-bottom: 5px solid var(--main-color);
+    border-bottom: 5px solid var(--third-color);
     height: 30px;
     width: 380px;
     transition: ease 0.5s;
@@ -65,7 +66,7 @@ body {
   }
   
   .email:hover {
-    border-bottom: 5px solid var(--main-color);
+    border-bottom: 5px solid var(--third-color);
     height: 30px;
     width: 380px;
     transition: ease 0.5s;
@@ -78,7 +79,7 @@ body {
   }
   
   .message:hover {
-    border-bottom: 5px solid var(--main-color);
+    border-bottom: 5px solid var(--third-color);
     height: 12em;
     width: 380px;
     transition: ease 0.5s;
@@ -97,7 +98,7 @@ body {
   .submit {
     width: 200px;
     color: black;
-    background-color: var(--main-color);;
+    background-color: var(--third-color);
     font-size: 20px;
   }
   
@@ -105,7 +106,7 @@ body {
     box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
     transform: translateY(-3px);
     width: 300px;
-    border-top: 5px solid #0e3750;
+    border-top: 5px solid var(--main-color);
     border-radius: 0%;
   }
   

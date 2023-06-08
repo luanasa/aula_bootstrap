@@ -38,6 +38,9 @@ body {
 
     text-align: center;
 
+    display: flex;
+    flex-direction: column;
+
     overflow: overlay;
 }
 
@@ -45,6 +48,10 @@ body {
     width: min(50rem, 100%);
     margin-inline: auto;
     padding-inline: 2.4rem; /* inline = left and right */
+}
+
+nav {
+    display: flex;
 }
 
 ul {
@@ -743,6 +750,13 @@ nav#navigation.scroll .menu a.button:hover {
         margin-bottom: 1rem;
     }
 
+    #ourSpace .content img:hover {
+        transition: all 0.5s;
+    cursor: pointer;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+    }
+
     #ourSpace .line{
         width: 100%;
         border: 0.0625rem solid var(--primary-color);
@@ -755,20 +769,11 @@ nav#navigation.scroll .menu a.button:hover {
     }
 
     #ourSpace .content {
-        margin-top: 5rem;
+        margin-top: 3rem;
         display: flex;
         justify-content: center;
         gap: 1rem;
     }
-
-    #ourSpace .second-content {
-        margin-top: 1rem;
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
-    }
-     
-
 
     /* CONTACT */
 

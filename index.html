@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Espaço Renove</title>
 </head>
 <body>
@@ -42,6 +43,23 @@
                 </a>
             </li>
         </ul>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="topnav">
+        <a href="#home" class="active">
+            <img class="lo-1" src="./assets/renove-icon.svg" alt="">
+        </a>
+        <div id="myLinks">
+        <a href="#home">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#pacotes">Pacotes</a>
+        <a href="#contato">Contato</a>
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="mbMenu()">
+        <i class="fa fa-bars"></i>
+        </a>
     </div>
 
     <header>
@@ -157,5 +175,6 @@
         </div>
         <p>Desenvolvido por @ <span>Luana Martins</span></p>
     </footer>
+    <script src="./main.js"></script>
 </body>
 </html>

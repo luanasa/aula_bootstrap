@@ -308,3 +308,46 @@ a {
  .footer a{
   color: var(--lightgreen);
  }
+
+ .topnav {
+  display: none;
+ }
+
+ /* MOBILE */
+
+ @media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+  .topnav {
+    display: block;
+    overflow: hidden;
+    position: relative;
+  }
+  .topnav #myLinks {
+    display: none;
+  }
+  .topnav a {
+    color: var(--green);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 1rem;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .lo-1 {
+    width: 3rem;
+  }
+
+}

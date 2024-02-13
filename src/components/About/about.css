@@ -34,3 +34,26 @@
   margin-left: 3rem;
   line-height: 1.5rem;
 }
+
+/* MOBILE VERSION  */
+
+@media screen and (max-width: 600px) {
+  .container-about {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: -3.2rem;
+  }
+
+  .about-text {
+    text-align: center;
+    margin: 0;
+    margin-bottom: -5rem;
+  }
+
+  .about-text p {
+    margin: 0;
+  }
+}

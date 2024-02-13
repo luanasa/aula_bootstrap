@@ -26,3 +26,9 @@
   width: 12rem;
   color: #F2F2F2;
 }
+@media screen and (max-width: 600px) {
+  .container ul {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,36 @@
+.container-about {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  margin-top: 2rem;
+
+  margin-bottom: 1rem;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-text h1{
+  font-size: 42px;
+  font-weight: 700;
+  color: #282A29;
+  width: 17rem;
+}
+
+.about-text span {
+  color: #F8C954;
+}
+
+.about-text p {
+  width: 21.5rem;
+  font-size: 16px;
+  color: #282A29;
+  margin-left: 3rem;
+  line-height: 1.5rem;
+}

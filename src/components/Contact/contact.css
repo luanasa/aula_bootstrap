@@ -1,0 +1,98 @@
+.container_contact {
+  background: #282A29;
+}
+
+.container_contact img {
+  margin-top: -2rem;
+}
+
+.contact-header {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  gap: 60rem;
+}
+
+.contact-header ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.container-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  margin-left: 15%;
+  padding-bottom: 1rem;
+}
+
+.container-info ul {
+  list-style: none;
+  color: #F2F2F2;
+  width: 30rem;
+  text-align: center;
+}
+
+.container-info ul li {
+  margin-bottom: 10px;
+}
+
+.container-info .title {
+  font-size: 20.6px;
+  font-weight: 700;
+}
+
+.info li {
+  text-align: left;
+}
+
+.info button {
+  margin-top: 1.5rem;
+  width: 10rem;
+  height: 3rem;
+  color: #F2F2F2;
+  background-color: #27963C;
+  font-weight: 700;
+  border: none;
+  border-radius: 2px;
+
+  cursor: pointer;
+}
+
+
+.info button:hover {
+  background-color: #f6b92b;
+  color: #282A29;
+}
+
+.hour li{
+  width: 17rem;
+  text-align: left;
+}
+
+.hour .p {
+  color: #27963C;
+  font-size: 13px;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: 13px;
+  color: #d4d1d1;
+}
+
+footer a {
+  text-decoration: none;
+  color: #938460;
+}
+
+footer a:hover{
+  color: #f6b92b;
+}
+
+

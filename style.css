@@ -374,4 +374,70 @@ footer ul img {
   }
 }
 
+/* RESPONSIVE CSS */
+@media screen and (max-width: 768px) {
+
+  body {
+    align-items: center;
+  }
+
+  .nav li {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header .hero{
+    width: 100%;
+  }
+  
+  header .hero h1 {
+    font-size: 25px;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .services ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .about img {
+    align-self: center;
+    width: 100%;
+  }
+
+  .contact_list {
+    text-align: center;
+  }
+
+  .contact_wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact img {
+    width: 100%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    align-items: center;
+  }
+}
+
 
